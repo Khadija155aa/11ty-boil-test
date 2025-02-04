@@ -1,18 +1,23 @@
+/* General body styles */
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
+    line-height: 1.6; /* Improves readability */
 }
 
+/* Navigation bar */
 nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
     background: #212431;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds subtle depth */
 }
 
+/* Navigation links */
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -31,22 +36,45 @@ nav ul li a {
     color: #EAE8FF;
     text-decoration: none;
     font-size: 1.2em;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
 }
 
+/* Hover effect for links */
+nav ul li a:hover {
+    color: #FDCB45; /* Brightens on hover */
+}
+
+/* Header styles */
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-size: 6em; /* Reduced size for better spacing */
+    letter-spacing: -1px;
+    margin-top: 20px; /* Adds space above */
 }
 
+/* Gradient text effect */
 h1 strong {
-    background: rgb(34,193,195);
     background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/* Styling for images */
 img.about {
-    opacity: 0.5;
+    opacity: 0.7; /* Increased opacity for better visibility */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Image hover effect */
+img.about:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #B8B5C3;
 }
 
 
