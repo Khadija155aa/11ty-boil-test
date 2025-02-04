@@ -3,10 +3,13 @@ layout: layout.liquid
 title: Explorer's Blog
 ---
 
-# 🚀 Welcome to the Explorer's Blog  
-A log of my interstellar adventures across the galaxy.
+# Welcome to the Explorer's Blog  
 
-## Recent Entries:
-- [Day 1: Lost Among the Stars](/blog/day1/)
-- [Day 5: Encounter on Planet X](/blog/day5/)
+## Charting the Unknown  
 
+Space is vast, mysterious, and full of wonders waiting to be discovered. This blog follows the journey of a lone interstellar explorer traveling beyond the known universe. Each post documents thrilling encounters, breathtaking sights, and the challenges of surviving in deep space.  
+
+🚀 **Join the adventure and read the latest logs below!**  
+
+- [First Contact: A New World](./first-contact.md)  
+- [Nebula Storm: Surviving the Unknown](./nebula-storm.md)  
