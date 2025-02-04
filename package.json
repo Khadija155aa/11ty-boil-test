@@ -1,13 +1,9 @@
 {
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0"  // This installs and manages 11ty as a development dependency.
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1"
-  },
-  "scripts": {
-    "build": "eleventy", 
-    "serve": "eleventy --serve", 
-    "watch": "eleventy --watch"
+    "@11ty/eleventy-upgrade-help": "^3.0.1"  // This is an optional helper for upgrading 11ty.
   }
 }
+

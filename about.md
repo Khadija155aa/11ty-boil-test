@@ -1,7 +1,10 @@
 ---
-layout: layout.liquid
+layout: layout.liquid  // Specifies that this page will use the main layout file.
 title: About
 ---
 
-# About the Explorer's Blog
-This blog documents my solo mission through the unknown reaches of the galaxy. Each post is a personal log of my experiences.
+# About the 11ty **Boilerplate**  
+<!-- This is the main heading of the About page -->
+
+<img class="about" alt="pine" src="/images/pine.png" width="50" />  
+<!-- Adds a small image for decoration -->
