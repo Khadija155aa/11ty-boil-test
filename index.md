@@ -11,5 +11,5 @@ Space is vast, mysterious, and full of wonders waiting to be discovered. This bl
 
 🚀 **Join the adventure and read the latest logs below!**  
 
-- [First Contact: A New World](./first-contact.md)  
-- [Nebula Storm: Surviving the Unknown](./nebula-storm.md)  
+- [First Contact: A New World](/first-contact/)
+- [Nebula Storm: Surviving the Unknown](/nebula-storm/)  
