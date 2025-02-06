@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>  <!-- Dynamic title for each page -->
-    <link rel="stylesheet" href="/styles.css">  <!-- Links the CSS file -->
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/styles/screen.css">  <!-- Links to screen.css -->
 </head>
 <body>
     <nav>
@@ -14,18 +14,14 @@
             <li><a href="/blog-post-1/">First Contact</a></li>  
             <li><a href="/blog-post-2/">Nebula Storm</a></li>  
         </ul>
-    </nav>  
-    <!-- Navigation bar with links to all pages -->
+    </nav>
 
     <main>
-        {{ content }}  
-        <!-- This will be replaced with the specific page content -->
+        {{ content }}
     </main>
 
     <footer>
-        <p>&copy; 2025 Explorer's Blog</p>  
-        <!-- A simple footer for consistency -->
+        <p>&copy; 2025 Explorer's Blog</p>
     </footer>
 </body>
 </html>
-
