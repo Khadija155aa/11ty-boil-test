@@ -3,7 +3,7 @@ layout: layout.liquid
 title: About
 ---
 
-# About the Explorer  
+# About the 11ty **Boilerplate** 
 
 For centuries, humans have looked to the stars, wondering what lies beyond. As the first lone human explorer sent to chart the unknown, I traverse distant galaxies, document alien worlds, and push the limits of discovery.  
 
