@@ -1,15 +1,10 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addShortcode("log", function(date, content) {
-    return `<div class="log-entry">
-              <h2>Log Entry: ${date}</h2>
-              <p>${content}</p>
-            </div>`;
-  });
+  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("styles");
 
-  return {
-    dir: {
-      input: "src",
-      output: "dist"
-    }
-  };
+  eleventyConfig.addShortcode("logEntry", function (date, author) {
+    return `<div class="log-entry">
+      <p><em>Log Entry by ${author}, Stardate ${date}</em></p>
+    </div>`;
+  });
 };

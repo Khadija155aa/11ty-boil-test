@@ -1,11 +1,29 @@
 /* General body styles */
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: 'Orbitron', sans-serif; /* Unified font */
+    color: #d1e8ff; /* Light blue text */
+    background: #0a0f1e; /* Deep space blue */
     padding: 0 40px;
     text-align: center;
     line-height: 1.6; /* Improves readability */
+}
+
+/* Header styles */
+h1 {
+    font-size: 6em; /* Adjusted size for better spacing */
+    letter-spacing: -1px;
+    margin-top: 20px;
+    color: #ffcc00; /* Gold-like glow */
+}
+
+h1 strong {
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    color: #ffcc00; /* Matching gold-like glow */
 }
 
 /* Navigation bar */
@@ -17,7 +35,6 @@ nav {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds subtle depth */
 }
 
-/* Navigation links */
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -39,23 +56,18 @@ nav ul li a {
     transition: color 0.3s ease-in-out; /* Smooth color transition */
 }
 
-/* Hover effect for links */
 nav ul li a:hover {
     color: #FDCB45; /* Brightens on hover */
 }
 
-/* Header styles */
-h1 {
-    font-size: 6em; /* Reduced size for better spacing */
-    letter-spacing: -1px;
-    margin-top: 20px; /* Adds space above */
+/* Styling for links */
+a {
+    color: #80bfff;
+    text-decoration: none;
 }
 
-/* Gradient text effect */
-h1 strong {
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+a:hover {
+    color: #ff8800;
 }
 
 /* Styling for images */
@@ -64,7 +76,6 @@ img.about {
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Image hover effect */
 img.about:hover {
     opacity: 1; /* Fully visible on hover */
 }
@@ -75,24 +86,5 @@ footer {
     padding: 20px;
     font-size: 0.9em;
     color: #B8B5C3;
-}
-
-body {
-    background-color: #0a0f1e; /* Deep space blue */
-    color: #d1e8ff; /* Light blue text */
-    font-family: 'Orbitron', sans-serif;
-}
-
-h1, h2 {
-    color: #ffcc00; /* Gold-like glow */
-}
-
-a {
-    color: #80bfff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ff8800;
 }
 
