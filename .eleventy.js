@@ -1,19 +1,15 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("styles");
-
-  eleventyConfig.addShortcode("logEntry", function (date, author) {
+  eleventyConfig.addShortcode("log", function(date, content) {
     return `<div class="log-entry">
-      <p><em>Log Entry by ${author}, Stardate ${date}</em></p>
-    </div>`;
+              <h2>Log Entry: ${date}</h2>
+              <p>${content}</p>
+            </div>`;
   });
 
   return {
     dir: {
-      input: ".",
-      includes: "_includes",
-      output: "_site"
+      input: "src",
+      output: "dist"
     }
   };
 };
-

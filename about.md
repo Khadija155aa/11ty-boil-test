@@ -1,10 +1,14 @@
 ---
-layout: layout.liquid  // Specifies that this page will use the main layout file.
+layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**  
-<!-- This is the main heading of the About page -->
+# About the Explorer  
 
-<img class="about" alt="pine" src="/images/pine.png" width="50" />  
-<!-- Adds a small image for decoration -->
+For centuries, humans have looked to the stars, wondering what lies beyond. As the first lone human explorer sent to chart the unknown, I traverse distant galaxies, document alien worlds, and push the limits of discovery.  
+
+🌌 **Mission:** To uncover the secrets of the cosmos and bring back knowledge from the farthest reaches of space.  
+💡 **Tools:** A single exploration vessel, an AI companion, and an endless sense of curiosity.  
+⚠️ **Challenges:** Harsh environments, uncharted dangers, and the solitude of deep space.  
+
+Each log entry represents a piece of the universe, recorded for future explorers who dare to follow in my footsteps.  

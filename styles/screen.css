@@ -77,4 +77,22 @@ footer {
     color: #B8B5C3;
 }
 
+body {
+    background-color: #0a0f1e; /* Deep space blue */
+    color: #d1e8ff; /* Light blue text */
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2 {
+    color: #ffcc00; /* Gold-like glow */
+}
+
+a {
+    color: #80bfff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8800;
+}
 
