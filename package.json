@@ -1,9 +1,12 @@
 {
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"  // This installs and manages 11ty as a development dependency.
+  "name": "11ty-boil-test",
+  "version": "1.0.0",
+  "description": "An 11ty blog project",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1"  // This is an optional helper for upgrading 11ty.
+    "@11ty/eleventy": "^3.0.0"
   }
 }
-
