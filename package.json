@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "@11ty/eleventy-upgrade-help": "^3.0.1"
+  },
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
   }
 }
