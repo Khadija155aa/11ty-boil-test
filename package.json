@@ -1,13 +1,8 @@
 {
-  "name": "11ty-boil-test",
-  "version": "1.0.0",
-  "description": "An 11ty blog project",
-  "main": ".eleventy.js",
-  "scripts": { 
-    "start": "npx @11ty/eleventy --serve"
-    
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy-upgrade-help": "^3.0.1"
   }
 }
